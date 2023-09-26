@@ -62,10 +62,10 @@ metadata:
 spec:
   selector:
     app: express-deployment
-  type: LoadBalancer
+  # type: LoadBalancer
   ports:
   - protocol: TCP
     port: 8081
-    nodePort: 30000
+    # nodePort: 30000
     targetPort: 8081
 
